@@ -13,7 +13,7 @@ public class ReadPropertyData {
       Properties prop=new Properties();
       prop.load(fis);
       String data=prop.getProperty("username");
-     Sysv
+     
 
 	}
 

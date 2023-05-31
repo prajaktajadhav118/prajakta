@@ -12,7 +12,7 @@ public class Close {
 			driver.get("http://omayo.blogspot.com/");
 			Thread.sleep(2000);
 			driver.close();
-			
+	
 
 	}
 

@@ -1,5 +1,6 @@
 package xpathLocater;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -16,8 +17,8 @@ public class Xpath1 {
 		//driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("prajakta@12");
 		//Thread.sleep(2000);
 		
-		//driver.findElement(By.xpath("//input[@placeholder='SIGN IN']")).click();
-		//Thread.sleep(2000);
+		driver.findElement(By.xpath("//input[@placeholder='SIGN IN']")).click();
+		Thread.sleep(2000);
 
 	}
 

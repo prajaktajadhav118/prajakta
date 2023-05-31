@@ -6,6 +6,6 @@ public class BaseTest extends Flib {
 	public void openBrowser() {
 		
 		Flib Flib = new Flib();
-		String browserValue=Flib.readPropertyData("./data/config.properties","browser");
+		//String browserValue=Flib.readPropertyData("./data/config.properties","browser");
 		
-	}
+	}}
